@@ -7,6 +7,8 @@
     tools:context=".MainActivity">
 
     <com.example.getorientation0415.AzimuthView
+        android:id="@+id/AzimuthView"
         android:layout_height="match_parent"
         android:layout_width="match_parent">
     </com.example.getorientation0415.AzimuthView>
+</androidx.constraintlayout.widget.ConstraintLayout>
