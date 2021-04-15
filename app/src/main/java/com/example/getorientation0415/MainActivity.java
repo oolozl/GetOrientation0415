@@ -16,10 +16,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView txtAzimuth, txtPitch, txtRoll;
+   /* TextView txtAzimuth, txtPitch, txtRoll;
     SensorManager sensorManager;
     Sensor magSensor, accSensor;
     SensorEventListener listener;
+
+    */
 
     float[] magValues, accValues;
 
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtAzimuth = findViewById(R.id.txtAzimuth);
+      /*  txtAzimuth = findViewById(R.id.txtAzimuth);
         txtPitch = findViewById(R.id.txtPitch);
         txtRoll = findViewById(R.id.txtRoll);
 
@@ -38,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         accSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
 
         listener = new SensorEventListener() {
+
+
             @Override
             public void onSensorChanged(SensorEvent sensorEvent) {
 
@@ -102,5 +106,9 @@ public class MainActivity extends AppCompatActivity {
     }
     private float radian2Degree(float radian) {
         return radian * 100 / (float) Math.PI;
+    }
+}
+
+       */
     }
 }
